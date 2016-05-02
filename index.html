@@ -4,37 +4,27 @@
 	<title>Observatório EPT</title>
 	<link rel="shortcut icon" href="favicon.ico">
 	<meta charset="utf-8">
-	<script type="text/javascript" src="script.js"></script>
-	<script type="text/javascript" src="jquery.js"></script>
-	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	
 </head>
-<body>
-	<a onclick="openThree()"><div id="square-menu"><img id="three" src="three.png"></div></a>
-	<div id="bigthree">
-	<a onclick="closeThree()"><div id="square-return"><img id="return" src="return.png"></div></a>
-		<ul style="display: inline; text-align: center;" id="nav-menu">
-			<li><a onclick="toMove('topo')">Topo</a></li>
-			<li><a onclick="toMove('historico')">Histórico</a></li>
-			<li><a onclick="toMove('linhaPesquisa')">Linhas de pesquisa</a></li>
-			<li><a onclick="toMove('baseDados')">Base de Dados</a></li>
-			<li><a onclick="toMove('analiseGraficos')">Análise de Gráficos</a></li>
-			<li><a onclick="toMove('localizacao')">Localizacao</a></li>
-			<li><a onclick="toMove('contato')">Contato</a></li>
-		</ul>
-	</div>
+<body onload="aparece()">
 	<section id="topo">
-		<a href="http://www.ifrs.edu.br"><img id="logo_if_index" src="logo_if2.png" width="420px" height="350px"></a>
-		<div>
-			<img id="id_lupa"src="lupa.png">
-			<div id="menu_lupa">
-				<a id="id_historico_index"    onclick="toMove('historico')">Histórico</a>
-				<a id="id_linhaPesquisa_index"  onclick="toMove('linhaPesquisa')">Linhas de pesquisa</a>
-				<a id="id_baseDados_index"  onclick="toMove('baseDados')">Base de Dados</a>
-				<a id="id_analiseGraficos_index"  onclick="toMove('analiseGraficos')">Análise de Gráficos</a>
-				<a id="id_localizacao_index" onclick="toMove('localizacao')">Localizacao</a>
-				<a id="id_contato_index" onclick="toMove('contato')">Contato</a>
-			</div>
+		<div id="container">
+			<a href="http://www.ifrs.edu.br"><img id="logo_if" src="imagens/logoIF.png" width="175px" height="70px"></a>
+			<a href="#"><img id="logo_ept" src="imagens/eptlogo.png" width="70px" height="70px"></a>
+		</div>
+		<div id="menu">
+			<ul id="ul-menu">
+				<li><a  onclick="toMove('historico')">Menu1</a></li>
+				<li><a  onclick="toMove('linhaPesquisa')">Menu2</a></li>
+				<li><a href="#">Menu3</a></li>
+				<li><a href="#">Menu4</a></li>
+				<li><a href="#">Menu5</a></li>
+				<li><a href="#">Menu6</a></li>
+			</ul>
+		</div>
 		</div>
 	</section>
 	<section id="historico">
@@ -59,17 +49,17 @@
 	</section>
 	<section id="footer">
 		<div id="tagMap">
-			<img id="tagMapImg" src="tool.png">
+			<img id="tagMapImg" src="imagens/tool.png">
 			<p>Avenida Paulista, 738</p>
 		</div>
 		<div id="tagSymbol">
-			<img id="tagSymbolImg" src="symbol.png">
+			<img id="tagSymbolImg" src="imagens/symbol.png">
 			<p>observatorioept@gmail.com</p>
 		</div>
 		<div id="tagTelephone">
-			<img id="tagTelephoneImg" src="telephone.png">
+			<img id="tagTelephoneImg" src="imagens/telephone.png">
 			<p>(053)3230-3032</p>
 		</div>
 	</section>
 </body>
-<rft5e/html>
+</html>

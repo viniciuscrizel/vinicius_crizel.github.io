@@ -2,62 +2,6 @@
 			text-align: center;
 			font-size: 60px;
 		}
-		#id_lupa{
-			left: 26%;
-			top: 10%;
-			width: 50%;
-			height: 85%;
-			position: absolute;
-		}
-		#menu_lupa{
-			width: 28%;
-			height: 48%;
-			top: 15%;
-			left: 30%;
-			position: absolute;
-		}
-		#id_inicio_index{
-			font-size: 50px;
-			left: 30%;
-			top: 40%;
-			position: absolute;
-		}
-		#id_historico_index{
-			font-size: 28px;
-			left: 20%;
-			top: 29%;
-			position: absolute;
-		}
-		#id_linhaPesquisa_index{
-			font-size: 30px;
-			left: 35%;
-			top: 41%;
-			position: absolute;
-		}
-		#id_baseDados_index{
-			font-size: 30px;
-			left: 35%;
-			top: 14%;
-			position: absolute;
-		}
-		#id_analiseGraficos_index{
-			font-size: 30px;
-			left: 20%;
-			top: 54%;
-			position: absolute;
-		}
-		#id_localizacao_index{
-			font-size: 30px;
-			left: 22%;
-			top: 69%;
-			position: absolute;
-		}
-		#id_contato_index{
-			font-size: 30px;
-			left: 45%;
-			top: 83%;
-			position: absolute;
-		}
 		body{
 			background-color: #DCDCDC;
 			margin: 0px;
@@ -69,71 +13,63 @@
 			color: #42426F;
 			text-shadow: #000 1px 1px 2px;
 		}
-		#menu_lupa a:hover{
-			text-decoration: none;
-			cursor: pointer;
-			color: red;
-			text-shadow: #000 1px 1px 2px;
-		}
-		#logo_if_index{
-			top: -15%;
-			left: -2%;
+		#logo_if{
+			top: 6%;
+			left: 3.5%;
 			position: absolute;
 		}
-		#logo_ept_index{
-			top: 2%;
-			right: 2%;
+		#logo_ept{
+			top: 8%;
+			right: 3%;
 			position: absolute;
-			width: 180px;
-			height: 180px;
 		}
 		#historico{
 			background-color: #90EE90;
-			top: 100%;
+			top: 23%;
 			width: 100%;
-			height: 100%;
+			height: 77%;
 			position: absolute;
 		}
 		#linhaPesquisa{
 			background-color:#DCDCDC;
-			top: 200%;
+			top: 123%;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 		}
 		#baseDados{
 			background-color: #90EE90;
-			top: 300%;
+			top: 223%;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 		}
 		#analiseGraficos{
 			background-color: #DCDCDC;
-			top: 400%;
+			top: 323%;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 		}
 		#localizacao{
 			background-color: #90EE90;
-			top: 500%;
+			top: 423%;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 		}
 		#contato{
 			background-color: #DCDCDC;
-			top: 600%;
+			top: 523%;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 		}
 		#footer{
 			background-color: black;
-			top: 700%;
+			top: 623%;
 			width: 100%;
-			height: 35%;
+			height: 25%;
 			position: absolute;
 		}
 		#square-menu{
@@ -239,4 +175,38 @@
     		border-color: #696969;
     		width: 20%;
     		left: 40%
+		}
+		#container{
+			background-color: #FFFAFA;
+			width: 100%;
+			height: 13%;
+			top: 0;
+			z-index: 1;
+			position: fixed;
+		}
+		#menu{
+			background-color: #111111;
+			width: 100%;
+			height: 10%;
+			top: 13%;
+			position: fixed;
+			box-shadow: 1px 2px 5px #888888;
+			z-index: 1;
+			opacity: 0.8;
+		}
+		#ul-menu{
+			margin-top: 24px;
+		}
+		ul#ul-menu li{
+			display: inline;
+		}
+		ul#ul-menu li a{
+			font-family: sans-serif;
+		    color: white;
+		    padding: 10px 28px;
+		    text-decoration: none;
+		}
+		ul#ul-menu li a:hover{
+			color: red;
+			opacity: 0.9;
 		}
