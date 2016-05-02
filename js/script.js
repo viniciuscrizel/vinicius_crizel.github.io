@@ -1,6 +1,6 @@
 		function toMove(x){
 			$('html, body').animate({
-				scrollTop: $("#"+x).offset().top
+				scrollTop: (parseInt($("#"+x).offset().top) - 150) + "%"
 				  }, 1500);	
 		}
 		function aparece(){
