@@ -2,17 +2,13 @@
 			text-align: center;
 			font-size: 60px;
 		}
+
 		body{
 			background-color: #DCDCDC;
 			margin: 0px;
 			padding: 0px;
 		}
-		a, a:visited, a:link, a:active{
-			text-decoration: none;
-			cursor: pointer;
-			color: #42426F;
-			text-shadow: #000 1px 1px 2px;
-		}
+
 		#logo_if{
 			top: 6%;
 			left: 3.5%;
@@ -24,7 +20,8 @@
 			position: absolute;
 		}
 		#historico{
-			background-color: #90EE90;
+			background-image: url('imagens/rg.jpg');
+			padding: 100px 40px;
 			top: 23%;
 			width: 100%;
 			height: 77%;
@@ -69,69 +66,8 @@
 			background-color: black;
 			top: 485%;
 			width: 100%;
-			height: 25%;
+			height: 35%;
 			position: absolute;
-		}
-		#square-menu{
-			z-index: 1001;
-			top: 3px;
-			right: 3px;
-			position: fixed;
-			width: 3.7%;
-			height: 7%;
-			background-color: black;
-			opacity: 0.6; 
-		}
-		#square-return{
-			z-index: 1001;
-			top: 3px;
-			right: 3px;
-			position: fixed;
-			width: 3.7%;
-			height: 7%;
-			background-color: white;
-			opacity: 0.6; 
-		}
-		#nav-menu li{
-			padding: 7px;
-		}
-		#nav-menu li a{
-			font-size: 22px;
-		}
-		#nav-menu li:hover{
-			background-color: rgba(0,0,0,0.7);
-			text-decoration: none;
-			cursor: pointer;
-			color: #215;
-		}
-		#three{
-			width: 30%;
-			height: 30%;
-			left: 35%;
-			top: 35%;
-			position: absolute;
-			overflow-y: auto;
-		}
-		#return{
-			width: 30%;
-			height: 30%;
-			left: 35%;
-			top: 35%;
-			position: absolute;
-			overflow-y: auto;
-		}
-
-		#bigthree{
-			display: none;
-		    z-index: 1002;
-		    position: fixed;
-		    right: 0;
-		    top: 0;
-		    width: 230px;
-		    height: 100%;
-		    overflow-y: auto;
-		    background: #222;
-		    padding-top: 40px;
 		}
 		#tagMap{
 			text-align: center;
@@ -169,13 +105,7 @@
 			top: 20%;
 			position: absolute;
 		}
-		hr{
-			border-style: inset;
-    		border-width: 2px;
-    		border-color: #696969;
-    		width: 20%;
-    		left: 40%
-		}
+
 		#container{
 			background-color: #FFFAFA;
 			width: 100%;
@@ -194,6 +124,12 @@
 			z-index: 1;
 			opacity: 0.8;
 		}
+		a, a:visited, a:link, a:active{
+			text-decoration: none;
+			cursor: pointer;
+			color: #42426F;
+			text-shadow: #000 1px 1px 2px;
+		}
 		#ul-menu{
 			margin-top: 24px;
 		}
@@ -203,10 +139,13 @@
 		ul#ul-menu li a{
 			font-family: sans-serif;
 		    color: white;
-		    padding: 10px 28px;
+		    padding: 10px 20px;
 		    text-decoration: none;
+		    font-size: 16px;
 		}
 		ul#ul-menu li a:hover{
-			color: red;
-			opacity: 0.9;
+			color: white;
+			opacity: 0.2;
+			background-color: white;
+			border-radius: 3px;
 		}
