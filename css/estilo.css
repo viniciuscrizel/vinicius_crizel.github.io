@@ -144,8 +144,6 @@
 		    font-size: 16px;
 		}
 		ul#ul-menu li a:hover{
-			color: white;
-			opacity: 0.2;
 			background-color: white;
 			border-radius: 3px;
 		}
