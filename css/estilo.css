@@ -7,6 +7,7 @@
 			background-color: #DCDCDC;
 			margin: 0px;
 			padding: 0px;
+			z-index: 2;
 		}
 
 		#logo_if{
@@ -147,3 +148,16 @@
 			background-color: white;
 			border-radius: 3px;
 		}
+		#historico-text{
+			border-style: solid;
+			border-color: grey;
+			border-width: 1px;
+			width: 95%;
+			height: 60%;
+			top: 25%;
+			left: 2.5%;
+			position: absolute;
+			padding: 10px 10px;
+			box-shadow: 3px 3px #DCDCDC;
+		}
+
