@@ -108,7 +108,7 @@
 		}
 
 		#container{
-			background-color: #FFFAFA;
+			background-color: #D3D3D3;
 			width: 100%;
 			height: 13%;
 			top: 0;
@@ -144,20 +144,45 @@
 		    text-decoration: none;
 		    font-size: 16px;
 		}
-		ul#ul-menu li a:hover{
-			background-color: white;
-			border-radius: 3px;
+		ul#ul-menu li a:hover, ul#ul-menu li a:active{
+			color: red;
 		}
 		#historico-text{
-			border-style: solid;
-			border-color: grey;
-			border-width: 1px;
 			width: 95%;
 			height: 60%;
-			top: 25%;
+			top: 20%;
 			left: 2.5%;
 			position: absolute;
 			padding: 10px 10px;
-			box-shadow: 3px 3px #DCDCDC;
+			box-shadow: 2px 2px #DCDCDC;
+			border-radius: 3px;
+			text-align: justify;
+		}
+		.header-temp{
+			background-color: #111111;
+			width: 100%;
+			height: 10%;
+			top: 0%;
+			position: fixed;
+			box-shadow: 1px 2px 5px #888888;
+			z-index: 1;
+			opacity: 0.9;
+		}
+		#ul-menu li  ul{
+			position: absolute; 
+			top: 100%; 
+			left: 12%;
+			background-color: #0f0f0f; 
+			display: none;
+			border-radius: 3px;
+			padding: 0px 0px;
+		}   
+		#ul-menu li:hover ul, #ul-menu li.over ul{
+			display: block;
+		}
+		#ul-menu li ul li{
+			display: block; 
+			padding: 20px 10px;
+			color: black;
 		}
 

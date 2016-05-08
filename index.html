@@ -16,30 +16,33 @@
 
 	
 </head>
-<body onloadstart="teste()" class"container-fluid">
+<body ononline="somemenu()">
 	<section id="topo">
 		<div id="container">
 			<a href="http://www.ifrs.edu.br"><img id="logo_if" src="imagens/logoIF.png" width="175px" height="70px"></a>
 			<a href="#"><img id="logo_ept" src="imagens/eptlogo.png" width="70px" height="70px"></a>
 		</div>
-		<div id="menu">
-			<ul id="ul-menu"  >
-				<li><a  onclick="toMove('historico')"S>histórico</a></li>
-				<li><a  onclick="toMove('linhaPesquisa')">linhas de pesquisa</a></li>
-				<li><a  onclick="toMove('baseDados')">base dados</a></li>
-				<li><a  onclick="toMove('analiseGraficos')">análise de graficos</a></li>
-				<li><a  onclick="toMove('localizacao')">localização</a></li>
-				<li><a  onclick="toMove('contato')">contato</a></li>
+		<div id="menu" class="none">
+			<ul id="ul-menu">
+				<li><a  onclick="toMove('historico')"S>Histórico</a></li>
+				<li><a  onclick="toMove('linhaPesquisa')">Linhas de pesquisa</a>
+					<ul>
+						<li><a href="#">sub-menu1</a></li>
+						<li><a href="#">sub-menu2</a></li>
+						<li><a href="#">sub-menu3</a></li>
+					</ul>
+				</li>
+				<li><a  onclick="toMove('baseDados')">Base dados</a></li>
+				<li><a  onclick="toMove('analiseGraficos')">Análise de graficos</a></li>
+				<li><a  onclick="toMove('localizacao')">Localização</a></li>
+				<li><a  onclick="toMove('contato')">Contato</a></li>
 			</ul>
 		</div>
 		</div>
 	</section>
 	<section id="historico">
-			<div style="text-align: center; top: 3%; left: 38%; position: absolute; width: 25%;">
-				<hr style="border-color: black;" >
-					<p style="font-size: 20px">HISTÓRICO</p>
-				<hr style="border-color: black;">
-			</div>
+			<p style="font-size: 24px; left: 44%; top: 8%; position: absolute;">HISTÓRICO</p>
+			<hr style="border-color: black; width: 16%;left: 41%;top: 10%; position: absolute;">
 			<div id="historico-text">
 			<img src="imagens/eptlogo.png" width="200px" height="200px" align="left">
 			<p style="text-align: center">
@@ -63,8 +66,8 @@
 		<h1>Análise de Gráficos</h1>
 	</section>
 	<section id="localizacao">
-		<p style="font-size: 35px; text-align: center; margin-bottom: 15px; font-family: sans-serif;">Localização</p>
-		<hr>
+		<p style="font-size: 24px; left: 44%; top: 8%; position: absolute;">LOCALIZAÇÃO</p>
+		<hr style="border-color: black; width: 14%;left: 43%;top: 10%; position: absolute;">
 		<iframe id="mapa_localizacao" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4782.9438192120315!2d-52.09057250671186!3d-32.040783658680496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf6c490e2128f40d9!2sInstituto+Federal+de+Educa%C3%A7%C3%A3o+Ci%C3%AAncia+e+Tecnologia+do+Rio+Grande+do+Sul%2CCampus+Rio+Grande!5e0!3m2!1spt-BR!2sde!4v1461537674939" width="80%" height="75%" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
 	<section id="contato">
