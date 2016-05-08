@@ -21,7 +21,6 @@
 			position: absolute;
 		}
 		#historico{
-			background-image: url('imagens/rg.jpg');
 			padding: 100px 40px;
 			top: 23%;
 			width: 100%;
@@ -108,18 +107,21 @@
 		}
 
 		#container{
-			background-color: #D3D3D3;
+			background-image: url(../imagens/rg2.jpg);
+			background-size: auto;
+			background-position: center;
 			width: 100%;
-			height: 13%;
+			height: 16%;
 			top: 0;
-			z-index: 1;
+			z-index: 2;
 			position: fixed;
 		}
+
 		#menu{
 			background-color: #111111;
 			width: 100%;
 			height: 10%;
-			top: 13%;
+			top: 16%;
 			position: fixed;
 			box-shadow: 1px 2px 5px #888888;
 			z-index: 1;
