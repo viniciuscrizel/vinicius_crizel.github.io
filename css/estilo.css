@@ -2,17 +2,14 @@
 			text-align: center;
 			font-size: 60px;
 		}
-
 		body{
-			background-color: #DCDCDC;
 			margin: 0px;
 			padding: 0px;
 			z-index: 2;
 		}
-
 		#logo_if{
-			top: 6%;
-			left: 3.5%;
+			top: 3%;
+			left: 4%;
 			position: absolute;
 		}
 		#logo_ept{
@@ -28,10 +25,11 @@
 			position: absolute;
 		}
 		#linhaPesquisa{
-			background-color:#DCDCDC;
+			background-color: white;
 			top: 100%;
 			width: 100%;
 			height: 77%;
+			padding: 0px 0px;
 			position: absolute;
 		}
 		#baseDados{
@@ -107,11 +105,10 @@
 		}
 
 		#container{
-			background-image: url(../imagens/rg2.jpg);
+			background-image: url(../imagens/rg22.jpg);
 			background-size: auto;
-			background-position: center;
 			width: 100%;
-			height: 16%;
+			height: 20%;
 			top: 0;
 			z-index: 2;
 			position: fixed;
@@ -121,17 +118,11 @@
 			background-color: #111111;
 			width: 100%;
 			height: 10%;
-			top: 16%;
+			top: 20%;
 			position: fixed;
 			box-shadow: 1px 2px 5px #888888;
 			z-index: 1;
 			opacity: 0.8;
-		}
-		a, a:visited, a:link, a:active{
-			text-decoration: none;
-			cursor: pointer;
-			color: #42426F;
-			text-shadow: #000 1px 1px 2px;
 		}
 		#ul-menu{
 			margin-top: 24px;
@@ -148,16 +139,15 @@
 		}
 		ul#ul-menu li a:hover, ul#ul-menu li a:active{
 			color: red;
+			cursor: pointer;
 		}
 		#historico-text{
 			width: 95%;
 			height: 60%;
-			top: 20%;
+			top: 25%;
 			left: 2.5%;
 			position: absolute;
 			padding: 10px 10px;
-			box-shadow: 2px 2px #DCDCDC;
-			border-radius: 3px;
 			text-align: justify;
 		}
 		.header-temp{

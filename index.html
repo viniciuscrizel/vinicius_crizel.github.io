@@ -9,14 +9,13 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<!-- ESTILO -->
-	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
-
-	
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
-<body ononline="somemenu()">
+<body>
 	<section>
 		<div id="container">
 			<a href="http://www.ifrs.edu.br"><img id="logo_if" src="imagens/logoIF.png" width="175px" height="70px"></a>
@@ -37,27 +36,54 @@
 				<li><a  onclick="toMove('localizacao')">Localização</a></li>
 				<li><a  onclick="toMove('contato')">Contato</a></li>
 			</ul>
-		</div>
+			<div class="input-group" style="right: 2%; position: absolute; width: 20%; top: 25%;">
+			   	<input type="text" class="form-control" placeholder="O que você procura?">
+			   	<span class="input-group-btn">
+			       	<button class="btn btn-default" type="button">Ir!</button>
+			   	</span>
+			</div>
 		</div>
 	</section>
 	<section id="historico">
-			<p style="font-size: 24px; left: 44%; top: 8%; position: absolute;">HISTÓRICO</p>
-			<hr style="border-color: black; width: 16%;left: 41%;top: 10%; position: absolute;">
+			<p style="font-size: 24px; left: 44%; top: 16%; position: absolute;">HISTÓRICO</p>
 			<div id="historico-text">
-			<img src="imagens/eptlogo.png" width="200px" height="200px" align="left">
-			<p style="text-align: center">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem. Nulla sed ipsum eget magna rhoncus luctus in at nunc. Cras et sapien neque. Vivamus diam eros, faucibus eu interdum at, suscipit vel risus. Vivamus consectetur porttitor leo, ut blandit tortor volutpat sit amet. Aenean leo mauris, semper non feugiat in, dictum at magna. Proin egestas sapien ac semper ornare. Sed eu tellus sit amet leo vehicula sagittis.
+				<img src="imagens/eptlogo.png" width="200px" height="200px" align="left">
+				<p style="text-align: justify;">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem. Nulla sed ipsum eget magna rhoncus luctus in at nunc. Cras et sapien neque. Vivamus diam eros, faucibus eu interdum at, suscipit vel risus. Vivamus consectetur porttitor leo, ut blandit tortor volutpat sit amet. Aenean leo mauris, semper non feugiat in, dictum at magna. Proin egestas sapien ac semper ornare. Sed eu tellus sit amet leo vehicula sagittis.
 
-			Proin fringilla, nisi in lobortis vulputate, nunc eros scelerisque risus, in suscipit lectus sem sit amet lorem. Donec ex lacus, faucibus eget quam ac, ornare finibus nunc. Vestibulum augue odio, rhoncus vitae placerat quis, rutrum et felis. Aenean mollis purus sed ultrices consequat. Nam id justo venenatis, blandit erat sed, egestas sem. Fusce fringilla a metus a gravida. Vivamus maximus eros ac lacus dictum pretium. Cras erat elit, pretium eget accumsan eu, rhoncus sit amet ex. Suspendisse porttitor felis sed pellentesque fermentum. Aenean tempor est eu arcu sodales tristique. Etiam felis urna, ultricies a sollicitudin dignissim, consectetur ut orci.
+				Proin fringilla, nisi in lobortis vulputate, nunc eros scelerisque risus, in suscipit lectus sem sit amet lorem. Donec ex lacus, faucibus eget quam ac, ornare finibus nunc. Vestibulum augue odio, rhoncus vitae placerat quis, rutrum et felis. Aenean mollis purus sed ultrices consequat. Nam id justo venenatis, blandit erat sed, egestas sem. Fusce fringilla a metus a gravida. Vivamus maximus eros ac lacus dictum pretium. Cras erat elit, pretium eget accumsan eu, rhoncus sit amet ex. Suspendisse porttitor felis sed pellentesque fermentum. Aenean tempor est eu arcu sodales tristique. Etiam felis urna, ultricies a sollicitudin dignissim, consectetur ut orci.
 
-			Proin fringilla, nisi in lobortis vulputate, nunc eros scelerisque risus, in suscipit lectus sem sit amet lorem. Donec ex lacus, faucibus eget quam ac, ornare finibus nunc. Vestibulum augue odio, rhoncus vitae placerat quis, rutrum et felis. Aenean mollis purus sed ultrices consequat. Nam id justo venenatis, blandit erat sed, egestas sem. Fusce fringilla a metus a gravida. Vivamus maximus eros ac lacus dictum pretium. Cras erat elit, pretium eget accumsan eu, rhoncus sit amet ex. Suspendisse porttitor felis sed pellentesque fermentum. Aenean tempor est eu arcu sodales tristique. Etiam felis urna, ultricies a sollicitudin dignissim, consectetur ut orci.
+				Proin fringilla, nisi in lobortis vulputate, nunc eros scelerisque risus, in suscipit lectus sem sit amet lorem. Donec ex lacus, faucibus eget quam ac, ornare finibus nunc. Vestibulum augue odio, rhoncus vitae placerat quis, rutrum et felis. Aenean mollis purus sed ultrices consequat. Nam id justo venenatis, blandit erat sed, egestas sem. Fusce fringilla a metus a gravida. Vivamus maximus eros ac lacus dictum pretium. Cras erat elit, pretium eget accumsan eu, rhoncus sit amet ex. Suspendisse porttitor felis sed pellentesque fermentum. Aenean tempor est eu arcu sodales tristique. Etiam felis urna, ultricies a sollicitudin dignissim, consectetur ut orci.
 
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem. Nulla sed ipsum eget magna rhoncus luctus in at nunc. Cras et sapien neque. Vivamus diam eros, faucibus eu interdum at, suscipit vel risus. Vivamus consectetur porttitor leo, ut blandit tortor volutpat sit amet. Aenean leo mauris, semper non feugiat in, dictum at magna. Proin egestas sapien ac semper ornare. Sed eu tellus sit amet leo vehicula sagittis.
-			</p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem. Nulla sed ipsum eget magna rhoncus luctus in at nunc. Cras et sapien neque. Vivamus diam eros, faucibus eu interdum at, suscipit vel risus. Vivamus consectetur porttitor leo, ut blandit tortor volutpat sit amet. Aenean leo mauris, semper non feugiat in, dictum at magna. Proin egestas sapien ac semper ornare. Sed eu tellus sit amet leo vehicula sagittis.
+				</p>
 			</div>
 	</section>
 	<section id="linhaPesquisa">
-		<h1>linhas de Pesquisas</h1>
+		<div class="content-wrapper">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-12">
+	                        <ul class="nav nav-tabs">
+	                                <li class="active"><a href="#menu1" data-toggle="tab">menu1</a></li>
+	                                <li class=""><a href="#menu2" data-toggle="tab">menu2</a></li>
+	                                <li class=""><a href="#menu3" data-toggle="tab">menu3</a></li>
+	                        </ul>
+	                        <div class="tab-content">
+	                            <div class="tab-pane fade active in" id="menu1">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem.</p>
+	                            </div>
+	                            <div class="tab-pane fade" id="menu2">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem. Nulla sed ipsum eget magna rhoncus luctus in at nunc. Cras et sapien neque. Vivamus diam eros, faucibus eu interdum at, suscipit vel risus.</p>
+	                            </div>
+	                            <div class="tab-pane fade" id="menu3">
+	                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at ante ut tortor luctus euismod. Morbi faucibus neque lorem. Nulla sed ipsum eget magna rhoncus luctus in at nunc. Cras et sapien neque. Vivamus diam eros, faucibus eu interdum at, suscipit vel risus. Vivamus consectetur porttitor leo, ut blandit tortor volutpat sit amet. Aenean leo mauris, semper non feugiat in, dictum at magna. Proin egestas sapien ac semper ornare. Sed eu tellus sit amet leo vehicula sagittis.</p>
+	                            </div>
+	                        </div>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
 	</section>
 	<section id="baseDados">
 		<h1>Base de Dados</h1>
