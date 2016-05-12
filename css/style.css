@@ -12,7 +12,7 @@ body {
 	line-height:1.375em;
 	color:#343434;
 	min-width:1000px;
-	background: url('../images/body-bg.gif') top center repeat;
+	
 }
 .ic {
 	border:0;
@@ -120,24 +120,23 @@ header{
 	min-height:82px;
 	background: url('../images/header-bg.gif') left top repeat;
 	border-bottom: 3px solid #1c1e21;
-	padding-top: 20px;
+	height: 15%;
 }
 	.logo {
 		display: block;
 		text-indent: -5000px;
 		width: 306px;
-		height:77px;
-		background: url('../images/logoIF.png') left top no-repeat;
-		background-size: 180px 67px;
+		height: 80px;
+		background: url('../images/eptlogo.png') left top no-repeat;
+		background-size: 80px 80px;
+		margin-top: 10px;
 		float: left;
-		margin-top: 0%;
-		position: absolute;
 	}
 		nav {
 			float: right;
 		}
 			.menu {
-				padding-top: 20px;
+				padding-top: 40px;
 			}
 				.menu li {
 					float: left;
@@ -156,11 +155,13 @@ header{
 						}
 /*===== content =====*/
 #content {
-
+	background-image: url('../images/bg-grande-levant2.jpg');
+	background-repeat: no-repeat;
+	background-position: top;
 }
 	#slider {
 		height: 367px;
-		padding-top: 40px;
+		padding-top: 50px;
 	}
 	.inner {
 		background: #edf0f6;
@@ -470,6 +471,7 @@ footer {
 	color: #9a9a9a;
 	font-weight: 300;
 	padding-top: 40px;
+	background-image: url('../images/header-bg.gif');
 }
 	.social {
 		padding-left: 74px;
@@ -483,3 +485,13 @@ footer {
     
 /* Project specifics =========================================================== */
 /* Pour some CSS below ========================================================= */
+
+/*--------------------------------------------*/
+
+.button-more-info{
+	text-decoration: none;
+	color: #fff;
+}
+.button-more-info:hover{
+	color: red;
+}
