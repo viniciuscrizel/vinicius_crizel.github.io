@@ -1,0 +1,180 @@
+		h1{
+			text-align: center;
+			font-size: 60px;
+		}
+		body{
+			margin: 0px;
+			padding: 0px;
+			z-index: 2;
+		}
+		#logo_if{
+			top: 3%;
+			left: 4%;
+			position: absolute;
+		}
+		#logo_ept{
+			top: 8%;
+			right: 3%;
+			position: absolute;
+		}
+		#historico{
+			padding: 100px 40px;
+			top: 23%;
+			width: 100%;
+			height: 77%;
+			position: absolute;
+		}
+		#linhaPesquisa{
+			background-color: white;
+			top: 100%;
+			width: 100%;
+			height: 77%;
+			padding: 0px 0px;
+			position: absolute;
+		}
+		#baseDados{
+			background-color: #90EE90;
+			top: 177%;
+			width: 100%;
+			height: 77%;
+			position: absolute;
+		}
+		#analiseGraficos{
+			background-color: #DCDCDC;
+			top: 254%;
+			width: 100%;
+			height: 77%;
+			position: absolute;
+		}
+		#localizacao{
+			background-color: #90EE90;
+			top: 331%;
+			width: 100%;
+			height: 77%;
+			position: absolute;
+		}
+		#contato{
+			background-color: #DCDCDC;
+			top: 408%;
+			width: 100%;
+			height: 77%;
+			position: absolute;
+		}
+		#footer{
+			background-color: black;
+			top: 485%;
+			width: 100%;
+			height: 35%;
+			position: absolute;
+		}
+		#tagMap{
+			text-align: center;
+			width: 120px;
+			height: 70px;
+			position: absolute;
+			top: 23%;
+			left: 21%;
+			color: white;
+		}
+		#tagSymbol{
+			text-align: center;
+			width: 120px;
+			height: 70px;
+			position: absolute;
+			top: 23%;
+			left: 45%;
+			color: white;
+		}
+		#tagTelephone{
+			text-align: center;
+			width: 120px;
+			height: 70px;
+			position: absolute;
+			top: 23%;
+			left: 70%;
+			color: white;	
+		}
+		#tagMapImg, #tagSymbolImg, #tagTelephoneImg{
+			width: 75px;
+			height: 70px;
+		}
+		#mapa_localizacao{
+			left: 10%;
+			top: 20%;
+			position: absolute;
+		}
+
+		#container{
+			background-image: url(../imagens/rg22.jpg);
+			background-size: auto;
+			width: 100%;
+			height: 20%;
+			top: 0;
+			z-index: 2;
+			position: fixed;
+		}
+
+		#menu{
+			background-color: #111111;
+			width: 100%;
+			height: 10%;
+			top: 20%;
+			position: fixed;
+			box-shadow: 1px 2px 5px #888888;
+			z-index: 1;
+			opacity: 0.8;
+		}
+		#ul-menu{
+			margin-top: 24px;
+		}
+		ul#ul-menu li{
+			display: inline;
+		}
+		ul#ul-menu li a{
+			font-family: sans-serif;
+		    color: white;
+		    padding: 10px 20px;
+		    text-decoration: none;
+		    font-size: 16px;
+		}
+		ul#ul-menu li a:hover, ul#ul-menu li a:active{
+			color: red;
+			cursor: pointer;
+		}
+		#historico-text{
+			width: 95%;
+			height: 60%;
+			top: 25%;
+			left: 2.5%;
+			position: absolute;
+			padding: 10px 10px;
+			text-align: justify;
+		}
+		.header-temp{
+			background-color: #111111;
+			width: 100%;
+			height: 10%;
+			top: 0%;
+			position: fixed;
+			box-shadow: 1px 2px 5px #888888;
+			z-index: 1;
+			opacity: 0.9;
+		}
+		#ul-menu li  ul{
+			position: absolute; 
+			top: 100%; 
+			left: 12%;
+			background-color: #0f0f0f; 
+			display: none;
+			border-radius: 3px;
+			padding: 0px 0px;
+		}   
+		#ul-menu li:hover ul, #ul-menu li.over ul{
+			display: block;
+		}
+		#ul-menu li ul li{
+			display: block; 
+			padding: 20px 10px;
+			color: black;
+		}
+
